@@ -7,8 +7,23 @@ body {
 header {
     background: rgb(15, 37, 58);
     color: rgb(184, 247, 11);
-    text-align: center;
+    text-align: left;
     padding: 1rem;
+}
+
+#nav-header {
+    text-align: right;
+    padding: 1rem;
+    color: rgb(184, 247, 11);
+}
+
+ul {
+    justify-content: flex-start;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 #section-2 {
